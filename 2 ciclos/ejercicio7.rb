@@ -14,9 +14,10 @@
 =end
 
 a = 10
-a.times do |i|
-  puts i
+for i in 1..a do
   if i.even?
     puts 'par'
+  else
+  	puts i
   end
 end

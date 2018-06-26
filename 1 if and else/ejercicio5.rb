@@ -10,10 +10,8 @@ if a
   else
     puts 'Lograste A! Pero no B!'
   end
-else
-  if b
-	puts 'No lograste A! Pero si B!'
+elsif b
+	  puts 'No lograste A! Pero si B!'
   else
-	puts 'No lograste A ni B!'
+	  puts 'No lograste A ni B!'
   end
-end
