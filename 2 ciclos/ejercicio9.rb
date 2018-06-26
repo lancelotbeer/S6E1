@@ -33,10 +33,16 @@ tabs += 1
 insert_tab(b,tabs)
 b+=writeL(TBODY)
 tabs += 1
+b+=writeL(TR)
+tabs += 1
 3.times do |i|
   insert_tab(b,tabs)
   b += "#{writeL(TD)} #{i+1} #{writeL(TD,'/')}\n"
 end
+tabs -= 1
+insert_tab(b,tabs)
+
+b+=writeL(TR,'/')
 tabs -= 1
 insert_tab(b,tabs)
 b+=writeL(TBODY)
