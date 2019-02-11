@@ -3,12 +3,13 @@
 # que se ingrese un 0 (cero).
 # Ingrese un número (0 para salir): _
 
-opcion = 1
-while(opcion != 0) do
-  puts "ingrese numero para ver su tabla de multiplicar: "
-  opcion = gets.chomps.to_i
-  for i in 1..10 do
-  	puts "#{opcion}x#{i}=#{i*opcion}"
-  	
-  end
+
+puts 'ingrese un numero'
+a = gets.chomp.to_i
+while a != 0 do 
+	for b in 1..10
+		puts "#{a} * #{b} = #{a * b}" 
+	end
+	puts 'ingresa un numero'
+	a = gets.chomp.to_i
 end

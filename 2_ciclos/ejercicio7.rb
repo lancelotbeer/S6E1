@@ -14,10 +14,11 @@
 =end
 
 a = 10
-for i in 1..a do
+a.times do |i|
+ 
   if i.even?
     puts 'par'
-  else
-  	puts i
+else 
+	puts i
   end
 end

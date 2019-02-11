@@ -3,10 +3,11 @@
 
 a = ''
 10.times do |i|
-	if (i+1).even?
-		a += "#{i+1}par "
+	i += 1
+	if i.even?
+		print "#{i}" + 'par'
 	else
-		a += "#{i+1}impar "
+		print "#{i}" + 'impar'
 	end
 end
 

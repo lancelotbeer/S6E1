@@ -10,9 +10,15 @@
 
 a = 5
 b = ''
+c = '<ul>'
+d = '</ul>'
+
+puts c
+
 
 a.times do
-  b += "<li> hola </li>\n"
+  b = "<li> hola </li>\n"
+  puts b
 end
-b = "<ul>\n#{b}</ul>"
-puts b
+puts d
+
